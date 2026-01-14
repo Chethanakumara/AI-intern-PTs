@@ -54,12 +54,19 @@ RAG (Retrieval-Augmented Generation)
 📁 Project Structure
 code-analyzer-rag/
 │
-├── code_analyzer.py        # Main analyzer (AST-based)
+
+├── code_analyzer.py # Main analyzer (AST-based)
+
 ├── rag_engine.py           # RAG logic & AI feedback
+
 ├── build_vector_store.py   # Builds FAISS vector database
+
 ├── knowledge_base.txt      # Python best practices
+
 ├── README.md
+
 ├── .gitignore
+
 └── venv/
 
 🔄 Workflow Diagram 
@@ -91,3 +98,22 @@ code-analyzer-rag/
      │  (Best practices & tips)   │
      └─────────────────────────────┘
 
+OUTPUT:
+
+📊 CODE ANALYSIS REPORT
+
+File      : example.py
+
+Lines     : 80
+
+Functions : 5
+
+Classes   : 2
+
+🤖 RAG-BASED AI FEEDBACK
+
+- Consider breaking large functions into smaller ones
+  
+- Follow PEP8 naming conventions
+  
+- Improve modularity for better readability
