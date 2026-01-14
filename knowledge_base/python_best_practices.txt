@@ -1,0 +1,7 @@
+Functions should be small and readable.
+Avoid very large files.
+Use classes only when required.
+Remove unused imports.
+Follow PEP8 coding standards.
+Add comments for complex logic.
+Split large modules into smaller ones.
